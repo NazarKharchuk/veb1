@@ -1,0 +1,164 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.notSix{
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Six{
+    height: 25%;
+    background: #c7daf1;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.notTwo{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Two{
+    width: 25%;
+    background: #ebf1de;
+    border: 2px solid black;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.Two p{
+    width: 80%;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.notOne{
+    height: 67%;
+    display: flex;
+    flex-direction: row;
+}
+
+.One{
+    height: 33%;
+    background: #c7daf1;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.notThree{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Three{
+    width: 34%;
+    background: #fdeada;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.Five{
+    height: 80%;
+    border: 2px solid black;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.Five p{
+    width: 80%;
+    text-align:justify;
+    margin-left: 15%;
+}
+
+.Four{
+    height: 20%;
+    background: #fdeada;
+    border: 2px solid black;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.Four p{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.hederDiv{
+    width: 25%;
+    height: 30%;
+    background: white;
+    border: 3.5px solid black;
+    margin: 0% 20% 0% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.hederText{
+    width: 50%;
+    margin-right: 3%;
+    text-align: right;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.footerDiv{
+    width: 20%;
+    height: 30%;
+    background: white;
+    border: 3.5px solid black;
+    margin: 0% 5% 0% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.footerText{
+    width: 50%;
+    margin-left: 5%;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.footerDiv h2{
+    text-align: right;
+}
+
+.hederDiv h2{
+    text-align: right;
+}
